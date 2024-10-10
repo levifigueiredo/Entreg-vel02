@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Execução de Algoritmos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .container { max-width: 600px; margin: auto; }
+    .result { margin-top: 10px; padding: 10px; background-color: #f1f1f1; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Execução de Algoritmos</h1>
+
+    <!-- Somatório -->
+    <h3>Somatório</h3>
+    <label for="somatorioInput">Insira números separados por vírgula:</label><br>
+    <input type="text" id="somatorioInput" placeholder="Exemplo: 1,2,3,4,5">
+    <button onclick="executarSomatorio()">Executar Somatório</button>
+    <div class="result" id="somatorioResultado"></div>
+
+    <!-- Número Primo -->
+    <h3>Verificar Número Primo</h3>
+    <label for="primoInput">Insira um número:</label><br>
+    <input type="number" id="primoInput" placeholder="Exemplo: 7">
+    <button onclick="verificarPrimo()">Verificar Primo</button>
+    <div class="result" id="primoResultado"></div>
+
+    <!-- Fibonacci -->
+    <h3>Fibonacci</h3>
+    <label for="fibonacciInput">Insira o valor de N:</label><br>
+    <input type="number" id="fibonacciInput" placeholder="Exemplo: 10">
+    <button onclick="executarFibonacci()">Executar Fibonacci</button>
+    <div class="result" id="fibonacciResultado"></div>
+
+    <!-- MDC -->
+    <h3>MDC</h3>
+    <label for="mdcInputA">Insira o primeiro número:</label><br>
+    <input type="number" id="mdcInputA" placeholder="Exemplo: 48">
+    <label for="mdcInputB">Insira o segundo número:</label><br>
+    <input type="number" id="mdcInputB" placeholder="Exemplo: 18">
+    <button onclick="executarMDC()">Executar MDC</button>
+    <div class="result" id="mdcResultado"></div>
+
+    <!-- Quicksort -->
+    <h3>Quicksort</h3>
+    <label for="quicksortInput">Insira números separados por vírgula:</label><br>
+    <input type="text" id="quicksortInput" placeholder="Exemplo: 3,6,8,10,1,2,1">
+    <button onclick="executarQuicksort()">Executar Quicksort</button>
+    <div class="result" id="quicksortResultado"></div>
+
+    <!-- Contagem -->
+    <h3>Contagem</h3>
+    <label for="contagemInput">Insira números separados por vírgula:</label><br>
+    <input type="text" id="contagemInput" placeholder="Exemplo: 1,3,5,7,9,2,8">
+    <label for="nValue">Insira o valor de N:</label><br>
+    <input type="number" id="nValue" placeholder="Exemplo: 10">
+    <button onclick="executarContagem()">Executar Contagem</button>
+    <div class="result" id="contagemResultado"></div>
+  </div>
+
+  <script src="algoritmos.js"></script>
+</body>
+</html>
